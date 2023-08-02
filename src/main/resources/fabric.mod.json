@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "bakery-addon",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "bakery-addon",
+  "description": "its a fucking baker addon",
   "authors": [
-    "seasnail"
+    "givenbakerAd"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "jameskessi4@gmail.com"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/template/givenbakerAd.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
