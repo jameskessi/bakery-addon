@@ -13,7 +13,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import java.util.List;
 import java.util.Random;
 
-public class SpamPlus extends Module {
+public class Factspammer extends Module {
     public enum Text {
         RandomFacts
     }
@@ -38,8 +38,8 @@ public class SpamPlus extends Module {
 
     private int messageI, timer;
 
-    public SpamPlus() {
-        super(Addon.CATEGORY, "spam-plus", "Better than spam.");
+    public Factspammer() {
+        super(Addon.CATEGORY, "Fact spammer", "learning random shit in minecraft");
     }
 
     @Override

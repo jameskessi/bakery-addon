@@ -1,11 +1,9 @@
 package com.example.addon;
 
 import com.example.addon.commands.CommandExample;
-import com.example.addon.hud.HudExample;
+import com.example.addon.modules.Factspammer;
 import com.example.addon.modules.Fly;
 import com.example.addon.modules.ItemFrameDupe;
-import com.example.addon.modules.Spam;
-import com.example.addon.modules.SpamPlus;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.commands.Commands;
@@ -27,14 +25,13 @@ public class Addon extends MeteorAddon {
         // Modules
         Modules.get().add(new Fly());
         Modules.get().add(new ItemFrameDupe());
-        Modules.get().add(new Spam());
-        Modules.get().add(new SpamPlus());
+        Modules.get().add(new Factspammer());
 
         // Commands
         Commands.add(new CommandExample());
 
         // HUD
-        Hud.get().register(HudExample.INFO);
+
     }
 
     @Override
